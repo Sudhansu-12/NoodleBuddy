@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Noodle Buddy</title>
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"1f8b0b455fd4df435ac121900ed840edb","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script>
+</head>
+
+<body>
+    <h1><img src="noodles.png" alt="Noodle Buddy" height="70px" width="70px"/>Noodle Buddy</h1>
+    <hr />
+
+    <h3>Noodle Types</h3>
+    <ul>
+        <li>Chicken</li>
+        <li>Vegetable</li>
+        <li>Beef</li>
+        <li>Crab</li>
+        <li>Shrimp</li>
+    </ul>
+
+    <h3>Bowl Sizes</h3>
+    <ul>
+        <li>Large</li>
+        <li>Medium</li>
+        <li>Small</li>
+    </ul>
+
+    <h3>Broth</h3>
+    <ul>
+        <li>Light</li>
+        <li>Medium</li>
+        <li>Thick</li>
+    </ul>
+
+    <h3>Spice</h3>
+    <ul>
+        <li>No-spicy</li>
+        <li>Spicy</li>
+        <li>Super-spicy</li>
+    </ul>
+
+    <hr />
+</body>
+
+</html>
